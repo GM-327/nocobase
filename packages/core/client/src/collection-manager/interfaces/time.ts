@@ -33,15 +33,15 @@ export class TimeFieldInterface extends CollectionFieldInterface {
       title: '{{t("Time format")}}',
       'x-component': 'Radio.Group',
       'x-decorator': 'FormItem',
-      default: 'HH:mm:ss',
+      default: 'HH:mm',
       enum: [
         {
           label: '{{t("12 hour")}}',
-          value: 'hh:mm:ss a',
+          value: 'hh:mm a',
         },
         {
           label: '{{t("24 hour")}}',
-          value: 'HH:mm:ss',
+          value: 'HH:mm',
         },
       ],
     },
